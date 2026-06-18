@@ -1,0 +1,5 @@
+Global maximum error is:  1.0103029524088925e-14
+Relative error is:  3.367679202173539e-14
+
+The global maximum error in angular momentum conservation is of the order of 10^−14, which suggests the RK4 integrator preserves the optical angular momentum very accuractely throughout the entire simulation. The relative error is also of the order of 10^−14, showing that the deviation remains negligible even after normalizing with respect to the magnitude of angular momentum. This confirms the error is nont significant
+
