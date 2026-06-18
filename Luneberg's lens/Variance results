@@ -1,0 +1,6 @@
+Mean focus y-position = -1.2063782047974647e-17
+Standard deviation of focus y = 1.8492145374008365e-05
+Variance =  3.419594405334589e-10
+Max focus deviation = 2.766211987101704e-05
+
+The very small variance indicates that the spread of focal points around mean is almost negligbile, the rays coverge in a cluster and the lens shows strong converging behaviour of rays.
