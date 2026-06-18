@@ -1,0 +1,11 @@
+The RMSE values for the three integrators are as follows:
+Euler: 0.696px
+RK4: 0.000634px
+Velocity Verlet: 0.0609px
+
+Euler's method is first order accurate with global error scaling, Velocity Verlet is second order accurate and RK4 is 4th order accurate.
+The computational cost increases with the number of function evaluations per step. Euler requires one evaluation per step, Velocity Verlet requires approximately two, and RK4 requires four.
+
+Euler's method gives the highest RMSE which indicates poor accuracy despite the least computational complexity - unsuitable for ray tracing. RK4 provides the highest accuracy at the expense of computational cost as seen in the plot. 
+
+Velocity Verlet is best suited for the simulation as it provides a balanced trade off between computational cost, stability and accuracy. Moreover, Velocity Verlet is a sympletic generator - reduces artificial drift in trajectories making it stable for ray propagation long term. RK4 may gradually distort trajectories over many steps.
